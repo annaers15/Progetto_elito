@@ -2,7 +2,7 @@
     <section id="PricingPlan" class="yellow-shadow">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col lg-12">
                     <div class="title-area">
                         <h3 class="d-flex justify-content-center">Pricing Plan</h3>
                         <p class="d-flex justify-content-center">Must explain to you how all this mistaken idea of
@@ -12,7 +12,7 @@
             </div>
             <div class="row">
                 <!-- basic -->
-                <div class="col">
+                <div class="col-lg-4 col-md-12">
                     <div class="box-pricing">
                     
                         <div class="container">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <!-- premium -->
-                <div class="col">
+                <div class="col-lg-4 col-md-12">
                     <div class="box-pricing">
                     
                         <div class ="container">
@@ -52,10 +52,10 @@
                     </div>
                 </div>
                 <!-- advanced -->
-                <div class="col">
+                <div class="col-lg-4 col-md-12">
                     <div class="box-pricing">
                         
-                        <div class="container">
+                        <div class="container fuid">
                             <div class="plan text-center">ADVANCED</div>
                             <h3><strong>$373</strong> <sup>/PER MONTH</sup></h3>
                             <p>Determine the Best Pricing Strategy For Your Business.</p>
@@ -109,11 +109,11 @@ export default {
 
 /* box */
 .box-pricing .container {
-    padding: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
     background-color: #262626;
     color: rgba(238, 237, 237, 0.794);
     text-align: center;
-
 }
 
 ul li {
@@ -127,7 +127,7 @@ ul li {
 }
 
 strong {
-    font-size: 30px;
+    font-size: 42px;
     color: white;
 }
 
@@ -154,6 +154,7 @@ button {
     padding: 10px 25px;
     font-size: 16px;
     font-weight: 500;
+    margin-bottom: 30px;
 }
 
 button:hover {
@@ -164,9 +165,13 @@ button:hover {
 
 /* plan box */
 .plan {
-    padding: 3px 30px 5px;
+    padding: 5px 15px 5px; 
     background-color: #59c378;
     color: #d8d8d8;
     border-radius: 0px 0px 10px 10px;
+    display: inline-block;
+    margin-bottom: 30px;
+    right: 50%;
 }
+
 </style>

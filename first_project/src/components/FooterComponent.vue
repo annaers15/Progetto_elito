@@ -3,7 +3,7 @@
   <section class="footer-top green-shadow">
     <div class="container">
       <div class="row">
-        <div class="col lg-4">
+        <div class="col-lg-3 col-sm-12">
           <a class="logo" href="#">
             <img src="https://elito-next.netlify.app/images/logo.png" alt="logo-elito"> Elito.
           </a>
@@ -42,8 +42,8 @@
 
           </div>
         </div>
-        
-        <div class="col lg-2">
+
+        <div class="col-lg-3 col-sm-12">
           <h3>Navigation</h3>
           <ul>
             <li>- About us</li>
@@ -53,7 +53,7 @@
           </ul>
 
         </div>
-        <div class="col lg-4">
+        <div class="col-lg-3 col-sm-12">
           <h3>All Services</h3>
           <ul>
             <li>- Web Design</li>
@@ -62,7 +62,7 @@
             <li>- Digital Marketing</li>
           </ul>
         </div>
-        <div class="col lg-4">
+        <div class="col-lg-3 col-sm-12">
           <h3>Newsletter</h3>
           <p>Must explain to you how all this mistaken idea pleasure born and give you a complete account.</p>
           <div class="input-group mb-3">
@@ -79,20 +79,35 @@
         </div>
       </div>
     </div>
-
+    <!-- footer-bottom -->
   </section>
   <div class="separatore"></div>
   <section class="footer-bottom">
     <div class="container">
       <div class="row">
-        <div class="col lg-12 text-center">
-          
+        <div class="col-lg-12 col-sm-12 text-center">
+
           <div class="copyright">Copyright © 2022 Elito. All rights reserved.</div>
         </div>
       </div>
     </div>
 
+    <div class="container d-flex justify-content-end">
+      <div class="row">
+        <div class="col ">
+          <div class="smooth-scroll">
+            <a href="#header"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
+              </svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </section>
+
 </template>
 
 
@@ -169,7 +184,7 @@ input:active {
   border: none;
 }
 
-button {
+.footer-top button {
   border: none;
   background-color: #232925;
 }
@@ -188,4 +203,27 @@ a svg {
   padding: 25px;
   font-size: 15px;
 }
+
+/* button-scroll */
+.smooth-scroll {
+  background-color: rgba(89, 194, 121, .7);
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-size: 200%, 1px;
+  border: 2px solid #59c378;
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+}
+
+.smooth-scroll:hover {
+  background-color: #59c378;
+}
+
+
 </style>
