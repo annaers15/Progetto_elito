@@ -1,7 +1,7 @@
 <template>
   <div>
     <PricingPlan />
-    <TalkComponent />
+    
     <NewsComponent />
     <ContactUsComponent />
     <FooterComponent />
@@ -10,7 +10,7 @@
 
 <script>
 import PricingPlan from './components/PricingPlan.vue'
-import TalkComponent from './components/TalkComponent.vue'
+
 import NewsComponent from './components/NewsComponent.vue'
 import ContactUsComponent from './components/ContactUsComponent.vue'
 import FooterComponent from './components/FooterComponent.vue'
@@ -19,7 +19,6 @@ export default {
   name: 'App',
   components: {
     PricingPlan,
-    TalkComponent,
     NewsComponent,
     ContactUsComponent,
     FooterComponent
